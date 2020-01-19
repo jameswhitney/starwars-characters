@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from './components/Nav';
+import Card from './components/Card';
 import './App.css';
 
 function App() {
@@ -7,6 +8,8 @@ function App() {
     <div className="App">
       {/* Nav component used later to search characters */}
       <Nav />
+      {/* Card skeleton will populate Cardlist component */}
+      <Card />
     </div>
   );
 }
