@@ -7,7 +7,7 @@ const Nav = () => {
         <input
           className="pa2 tc w-60 bg-lightest-blue"
           type="search"
-          placeholder="Search for Star Wars Characters"
+          placeholder="Search Character Cards"
           // TODO: Implement search
         />
       </header>
