@@ -6,11 +6,19 @@ import Card from './Card';
 const Cardlist = ({ user }) => {
   return(
     <div className="mw-none center pt6 ph5-ns tc">
-      {/* Using user values for testing. Next iteration will be dynamic */}
-      <Card id={user[0].id} name={user[0].name} email={user[0].email}/>
-      <Card id={user[1].id} name={user[1].name} email={user[1].email}/>
-      <Card id={user[2].id} name={user[2].name} email={user[2].email}/>
-      <Card id={user[3].id} name={user[3].name} email={user[3].email}/>
+      {/* Loop through user object and map id, name and email to Card component */}
+      {
+        user.map((user, i) => {
+          return(
+            <Card 
+            key={i}
+            id={user.id}
+            name={user.name}
+            email={user.email}
+          />
+          );
+        }) 
+      }
     </div>
   );
 }
