@@ -4,9 +4,9 @@ const Card = ({ id, name, email }) => {
   return(
     // Style for card uses tachyons instead of creating css file.
     //
-    <article className="dib br3 pa2 ma2 b--black-30 grow-large shadow-4">
+    <article className="dib br3 pa2 ma2 b--black-30 grow shadow-4">
       <div className="flex items-right">
-        <img className="tc br-100 h3 w3 ba bw2 b--black-40 pa2 bg-washed-blue" 
+        <img className="self-center br-100 h3 w3 ba bw2 b--black-40 pa2 bg-washed-blue" 
           alt='robots'
           // dicebear.com used to generated random avatars for cards
           src={`https://avatars.dicebear.com/v2/bottts/${id}.svg`} 
