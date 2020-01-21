@@ -11,6 +11,7 @@ const Nav = ({ search }) => {
           // TODO: assign onChange to a method
           // that filters cards based on name
           // via text input
+          onChange={search}
         />
       </header>
     </React.Fragment>

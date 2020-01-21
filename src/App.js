@@ -8,14 +8,37 @@ import './App.css';
 
 
  class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      users: [],
+      searchfield: ''
+    }
+  }
+  
+  // onSearchChange handles user input
+  // TODO: set/change state of searchfield
+  // based on user input. 
+  onSearchChange = (event) => {
+    // logging event changes as simple test of searchfield
+    // console.log(event.target.value)
+    this.setState({ searchfield: event.target.value })
+  }
+  
   render() {
+    // Create function to filter cards
+    // from user input in Nav component
+    const filterUsers = users.filter(user => {
+      return user.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
+    })
+    
     return (
-      <div className="App">
+      <React.Fragment>
         {/* Nav component used later to search characters */}
-        <Nav />
+        <Nav search={ this.onSearchChange } />
         {/* Display array of cards with data from Users.js */}
-        <Cardlist user={users}/>
-      </div>
+        <Cardlist user={filterUsers}/>
+      </React.Fragment>
     );
   }  
 }
