@@ -10,7 +10,7 @@ const Cardlist = ({ user }) => {
       {
         user.map((user, i) => {
           return(
-            <Card 
+          <Card 
             key={i}
             id={user.id}
             name={user.name}
