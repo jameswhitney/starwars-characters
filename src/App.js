@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from './components/Nav';
 // Displays card components
 import Cardlist from './components/Cardlist';
+import Loading from './components/Loading'
 // Hard coded array of users for testing Card and Cardlist components
 // import { users } from './Users'
 import './App.css';
@@ -59,7 +60,7 @@ const urls = ['https://swapi.co/api/people/',
     })
     
     return !users.length ?
-      <h1 className="f1 tc white">Loading...</h1> :
+      <Loading /> :
       (
       <React.Fragment>
         {/* Nav component used later to search characters */}
