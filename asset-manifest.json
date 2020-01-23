@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/starwars-characters/static/css/main.820b7b91.chunk.css",
-    "main.js": "/starwars-characters/static/js/main.22f70020.chunk.js",
-    "main.js.map": "/starwars-characters/static/js/main.22f70020.chunk.js.map",
+    "main.js": "/starwars-characters/static/js/main.4f12071b.chunk.js",
+    "main.js.map": "/starwars-characters/static/js/main.4f12071b.chunk.js.map",
     "runtime-main.js": "/starwars-characters/static/js/runtime-main.2f05b040.js",
     "runtime-main.js.map": "/starwars-characters/static/js/runtime-main.2f05b040.js.map",
     "static/css/2.eb45ad44.chunk.css": "/starwars-characters/static/css/2.eb45ad44.chunk.css",
     "static/js/2.c09b453a.chunk.js": "/starwars-characters/static/js/2.c09b453a.chunk.js",
     "static/js/2.c09b453a.chunk.js.map": "/starwars-characters/static/js/2.c09b453a.chunk.js.map",
     "index.html": "/starwars-characters/index.html",
-    "precache-manifest.e4b3075beb82a7d38e1e94f4ccc6e342.js": "/starwars-characters/precache-manifest.e4b3075beb82a7d38e1e94f4ccc6e342.js",
+    "precache-manifest.608b3b1b029c2cec97bf7dca73c51101.js": "/starwars-characters/precache-manifest.608b3b1b029c2cec97bf7dca73c51101.js",
     "service-worker.js": "/starwars-characters/service-worker.js",
     "static/css/2.eb45ad44.chunk.css.map": "/starwars-characters/static/css/2.eb45ad44.chunk.css.map",
     "static/css/main.820b7b91.chunk.css.map": "/starwars-characters/static/css/main.820b7b91.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.eb45ad44.chunk.css",
     "static/js/2.c09b453a.chunk.js",
     "static/css/main.820b7b91.chunk.css",
-    "static/js/main.22f70020.chunk.js"
+    "static/js/main.4f12071b.chunk.js"
   ]
 }
