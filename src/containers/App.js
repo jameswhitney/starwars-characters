@@ -28,10 +28,14 @@ const urls = ['https://swapi.co/api/people/',
   }
 
   async componentDidMount() {
-    const getCharacterData = await this.getCharacter(urls)
-    const characterArray = getCharacterData.flatMap(character => character.results)
-    console.log('Character Data',characterArray)
-    this.setState({ users: characterArray })
+    try {
+      const getCharacterData = await this.getCharacter(urls)
+      const characterArray = getCharacterData.flatMap(character => character.results)
+      this.setState({ users: characterArray })
+    } catch {
+      console.log('Ooops. Looks like something went wrong.')
+    }
+
   }
   
   // onSearchChange handles user input
