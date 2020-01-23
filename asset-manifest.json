@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/starwars-characters/static/css/main.820b7b91.chunk.css",
+    "main.js": "/starwars-characters/static/js/main.8adc4569.chunk.js",
+    "main.js.map": "/starwars-characters/static/js/main.8adc4569.chunk.js.map",
+    "runtime-main.js": "/starwars-characters/static/js/runtime-main.2f05b040.js",
+    "runtime-main.js.map": "/starwars-characters/static/js/runtime-main.2f05b040.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/starwars-characters/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.c09b453a.chunk.js": "/starwars-characters/static/js/2.c09b453a.chunk.js",
+    "static/js/2.c09b453a.chunk.js.map": "/starwars-characters/static/js/2.c09b453a.chunk.js.map",
+    "index.html": "/starwars-characters/index.html",
+    "precache-manifest.d9bac6c8d21bdf924ef62d00f9f2659f.js": "/starwars-characters/precache-manifest.d9bac6c8d21bdf924ef62d00f9f2659f.js",
+    "service-worker.js": "/starwars-characters/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/starwars-characters/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.820b7b91.chunk.css.map": "/starwars-characters/static/css/main.820b7b91.chunk.css.map",
+    "static/js/2.c09b453a.chunk.js.LICENSE": "/starwars-characters/static/js/2.c09b453a.chunk.js.LICENSE",
+    "static/media/App.css": "/starwars-characters/static/media/jaapokkisubtract-regular.a34484e4.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f05b040.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.c09b453a.chunk.js",
+    "static/css/main.820b7b91.chunk.css",
+    "static/js/main.8adc4569.chunk.js"
+  ]
+}
