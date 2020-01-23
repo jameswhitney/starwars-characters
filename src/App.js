@@ -17,7 +17,7 @@ import './App.css';
   }
   
   // onSearchChange handles user input
-  // TODO: set/change state of searchfield
+  // TODO: set/change of searchfield
   // based on user input. 
   onSearchChange = (event) => {
     // logging event changes as simple test of searchfield
