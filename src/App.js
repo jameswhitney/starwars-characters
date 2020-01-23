@@ -58,7 +58,9 @@ const urls = ['https://swapi.co/api/people/',
       return user.name.toLowerCase().includes(searchfield.toLowerCase())
     })
     
-    return (
+    return !users.length ?
+      <h1 className="f1 tc white">Loading...</h1> :
+      (
       <React.Fragment>
         {/* Nav component used later to search characters */}
         <Nav search={ this.onSearchChange } />

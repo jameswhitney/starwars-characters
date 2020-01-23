@@ -11,7 +11,7 @@ const Card = ({ name }) => {
           // dicebear.com used to generated random avatars for cards
           src={`https://avatars.dicebear.com/v2/bottts/${name}.svg`} 
         />
-        <div className="f5 pa2 tc white">
+        <div className="f4 ma2 pa2 tc white">
           <h3>{name}</h3>
         </div>
       </div>

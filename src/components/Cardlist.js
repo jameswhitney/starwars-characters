@@ -14,7 +14,6 @@ const Cardlist = ({ users }) => {
             key={i}
             id={user.id}
             name={user.name}
-            // email={user.email}
           />
           );
         }) 
