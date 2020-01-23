@@ -7,7 +7,7 @@ const Nav = ({ search }) => {
         <input
           className="pa2 tc w-60 bg-lightest-blue"
           type="search"
-          placeholder="Search for StarWars Characters"
+          placeholder="StarWars Characters"
           // TODO: assign onChange to a method
           // that filters cards based on name
           // via text input
