@@ -33,7 +33,7 @@ const urls = ['https://swapi.co/api/people/',
       const characterArray = getCharacterData.flatMap(character => character.results)
       this.setState({ users: characterArray })
     } catch {
-      console.log('Ooops. Looks like something went wrong.')
+      alert('Oops! Something went wrong. Please reload the page.')
     }
 
   }
