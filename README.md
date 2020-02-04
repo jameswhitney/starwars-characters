@@ -10,4 +10,4 @@ APIs used are https://swapi.co/ for character data and https://avatars.dicebear.
 1. Clone this repo
 2. Navigate to the cloned repo directory
 2. run ```npm install```
-3. run ```npm start``
+3. run ```npm start```
