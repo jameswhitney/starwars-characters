@@ -24,7 +24,7 @@ const urls = ['https://swapi.co/api/people/',
   constructor() {
     super()
     this.state = {
-      users: [],
+      characters: [],
       searchfield: ''
     }
   }
@@ -33,7 +33,7 @@ const urls = ['https://swapi.co/api/people/',
     try {
       const getCharacterData = await this.getCharacter(urls)
       const characterArray = getCharacterData.flatMap(character => character.results)
-      this.setState({ users: characterArray })
+      this.setState({ characters: characterArray })
     } catch {
       alert('Oops something went wrong. Try refreshing the page')
     }
@@ -57,20 +57,18 @@ const urls = ['https://swapi.co/api/people/',
   } 
   
   render() {
-    const { searchfield, users } = this.state;
-    const filterUsers = users.filter(user => {
-      return user.name.toLowerCase().includes(searchfield.toLowerCase())
+    const { searchfield, characters } = this.state;
+    const filterUsers = characters.filter(character => {
+      return character.name.toLowerCase().includes(searchfield.toLowerCase())
     })
     
-    return !users.length 
-      ? <Loading /> :
+    return !characters.length ? <Loading /> :
       (
         <React.Fragment>
-
           <Nav search={ this.onSearchChange } />
-          <Cardlist users={filterUsers}/>
+          <Cardlist characters={filterUsers}/>
         </React.Fragment>
-    );
+      );
   }  
 }
 

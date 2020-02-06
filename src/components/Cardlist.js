@@ -3,17 +3,17 @@ import Card from './Card';
 
 // Cardlist returns an array of card components
 // User object passed as prop from App.js 
-const Cardlist = ({ users }) => {
+const Cardlist = ({ characters }) => {
   return(
     <div className="mw-none center pt6 ph5-ns tc">
       {/* Loop through user object and map id, name and email to Card component */}
       {
-        users.map((user, i) => {
+        characters.map((character, i) => {
           return(
           <Card 
             key={i}
-            id={user.id}
-            name={user.name}
+            id={character.id}
+            name={character.name}
           />
           );
         }) 
