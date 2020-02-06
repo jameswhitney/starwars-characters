@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/starwars-characters/static/css/main.820b7b91.chunk.css",
-    "main.js": "/starwars-characters/static/js/main.7b3eb630.chunk.js",
-    "main.js.map": "/starwars-characters/static/js/main.7b3eb630.chunk.js.map",
+    "main.css": "/starwars-characters/static/css/main.49bb11db.chunk.css",
+    "main.js": "/starwars-characters/static/js/main.ababa7a8.chunk.js",
+    "main.js.map": "/starwars-characters/static/js/main.ababa7a8.chunk.js.map",
     "runtime-main.js": "/starwars-characters/static/js/runtime-main.2f05b040.js",
     "runtime-main.js.map": "/starwars-characters/static/js/runtime-main.2f05b040.js.map",
     "static/css/2.eb45ad44.chunk.css": "/starwars-characters/static/css/2.eb45ad44.chunk.css",
     "static/js/2.c09b453a.chunk.js": "/starwars-characters/static/js/2.c09b453a.chunk.js",
     "static/js/2.c09b453a.chunk.js.map": "/starwars-characters/static/js/2.c09b453a.chunk.js.map",
     "index.html": "/starwars-characters/index.html",
-    "precache-manifest.f1eb964f6dc3b874143d7aa13b8b2f85.js": "/starwars-characters/precache-manifest.f1eb964f6dc3b874143d7aa13b8b2f85.js",
+    "precache-manifest.b8d4759cbfd2340a012d57a8cf8debdc.js": "/starwars-characters/precache-manifest.b8d4759cbfd2340a012d57a8cf8debdc.js",
     "service-worker.js": "/starwars-characters/service-worker.js",
     "static/css/2.eb45ad44.chunk.css.map": "/starwars-characters/static/css/2.eb45ad44.chunk.css.map",
-    "static/css/main.820b7b91.chunk.css.map": "/starwars-characters/static/css/main.820b7b91.chunk.css.map",
+    "static/css/main.49bb11db.chunk.css.map": "/starwars-characters/static/css/main.49bb11db.chunk.css.map",
     "static/js/2.c09b453a.chunk.js.LICENSE": "/starwars-characters/static/js/2.c09b453a.chunk.js.LICENSE",
     "static/media/App.css": "/starwars-characters/static/media/jaapokkisubtract-regular.a34484e4.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.2f05b040.js",
     "static/css/2.eb45ad44.chunk.css",
     "static/js/2.c09b453a.chunk.js",
-    "static/css/main.820b7b91.chunk.css",
-    "static/js/main.7b3eb630.chunk.js"
+    "static/css/main.49bb11db.chunk.css",
+    "static/js/main.ababa7a8.chunk.js"
   ]
 }
