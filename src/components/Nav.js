@@ -1,5 +1,7 @@
 import React from 'react';
 
+// search prop used for onChange events
+// to filter cards by user name
 const Nav = ({ search }) => {
   return(
     <React.Fragment>
@@ -7,10 +9,7 @@ const Nav = ({ search }) => {
         <input
           className="pa2 tc w-60 bg-lightest-blue"
           type="search"
-          placeholder="StarWars Characters"
-          // TODO: assign onChange to a method
-          // that filters cards based on name
-          // via text input
+          placeholder="Search StarWars Characters"
           onChange={search}
         />
       </header>
